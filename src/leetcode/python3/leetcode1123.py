@@ -35,6 +35,7 @@ class Solution:
 
         return root
 
+
 # 递归方法
 class Solution2:
     def lcaDeepestLeaves(self, root: TreeNode) -> TreeNode:

@@ -22,10 +22,10 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
-        ln = ListNode(None)
-        l3 = ln
+        header = ListNode(None)
+        l3 = header
         while l1 and l2:
-            if l1 <= l2:
+            if l1.val <= l2.val:
                 l3.next = l1
                 l1 = l1.next
             else:
@@ -36,4 +36,4 @@ class Solution(object):
             l3.next = l1
         else:
             l3.next = l2
-        return ln.next
+        return header.next

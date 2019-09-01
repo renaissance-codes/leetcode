@@ -60,13 +60,10 @@ class Solution2:
             if q in oqueue:
                 v = deep
                 break
-            wq = list(q)
-            for i, x in enumerate(q):
-                wq[i] = "*"
-                key = "".join(wq)
+            for i in range(len(q)):
+                key = q[:i] + "*" + q[i + 1:]
                 if key in ddict:
                     n_q += ddict[key]
-                wq[i] = q[i]
 
         uqueue = n_q
 
@@ -75,16 +72,13 @@ class Solution2:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         if endWord not in wordList:
             return 0
-
+        w_len = len(beginWord)
         d_dict = dict()
         for x in wordList:
-            wq = list(x)
-            for i, w in enumerate(x):
-                wq[i] = "*"
-                key = "".join(wq)
-                d_dict.setdefault("".join(key), [])
+            for i in range(w_len):
+                key = x[:i] + "*" + x[i + 1:]
+                d_dict.setdefault(key, [])
                 d_dict[key].append(x)
-                wq[i] = w
 
         sset = set()
         queue = [beginWord]

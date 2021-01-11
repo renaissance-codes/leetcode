@@ -2,6 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 com.yanglei/venv/
 com.yanglei/.idea
+out/
 *.log
 com.yanglei/jupyterNote/FinancialRiskControl/*.csv
 com.yanglei/jupyterNote/Industry/*.html

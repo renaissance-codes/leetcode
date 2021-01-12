@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LeetCodeClassification/1.分治.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeClassification/1.分治.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeClassification/2.动态规划.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeClassification/2.动态规划.md" afterDir="false" />
-    </list>
+    <list default="true" id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

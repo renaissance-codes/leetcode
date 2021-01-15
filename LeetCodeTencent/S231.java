@@ -10,8 +10,8 @@ public class S231 {
         int m = 0;
         while(l <= 32){
             m = m << l;
-            n = n^l;
-            if(n==0){
+            int d  = n ^ m;
+            if(d==0){
                 return true;
             }
             l = l +1;

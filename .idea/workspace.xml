@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCodeTencent/S231.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeTencent/016 最接近的三数之和.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeTencent/016 最接近的三数之和.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeTencent/S231.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeTencent/S231.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610185723170</updated>
       <workItem from="1610185725884" duration="15320000" />
-      <workItem from="1610702262320" duration="2515000" />
+      <workItem from="1610702262320" duration="3772000" />
     </task>
     <servers />
   </component>

@@ -6,11 +6,15 @@ package LeetCodeTencent;
  */
 public class S231 {
     public boolean isPowerOfTwo(int n) {
-        while (n > 0) {
-            n = n >> 1;
-            if(n ==1){
+        int l = 1;
+        int m = 0;
+        while(l <= 32){
+            m = m << l;
+            n = n^l;
+            if(n==0){
                 return true;
             }
+            l = l +1;
         }
         return false;
     }

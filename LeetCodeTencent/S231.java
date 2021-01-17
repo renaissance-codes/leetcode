@@ -6,16 +6,13 @@ package LeetCodeTencent;
  */
 public class S231 {
     public boolean isPowerOfTwo(int n) {
-        int l = 1;
-        int m = 0;
-        while(l <= 32){
-            m = m << l;
-            int d  = n ^ m;
-            if(d==0){
-                return true;
-            }
-            l = l +1;
-        }
-        return false;
+        int i = n & n - 1;
+        return (i == 0);
+    }
+
+    public static void main(String[] args) {
+        S231 s231 = new S231();
+        boolean powerOfTwo = s231.isPowerOfTwo(8);
+        System.out.println(powerOfTwo);
     }
 }

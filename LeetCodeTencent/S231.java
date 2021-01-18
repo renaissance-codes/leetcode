@@ -6,8 +6,8 @@ package LeetCodeTencent;
  */
 public class S231 {
     public boolean isPowerOfTwo(int n) {
-        int i = n & n - 1;
-        return (i == 0);
+        int i = n & n - 1 ;
+        return (i == 0)& n>0;
     }
 
     public static void main(String[] args) {

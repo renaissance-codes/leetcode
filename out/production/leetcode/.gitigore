@@ -1,0 +1,38 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+com.yanglei/venv/
+com.yanglei/.idea
+out/
+*.log
+com.yanglei/jupyterNote/FinancialRiskControl/*.csv
+com.yanglei/jupyterNote/Industry/*.html
+.ipynb_checkpoints
+
+com.yanglei/jupyterNote/FinancialRiskControl/.ipynb_checkpoints
+com.yanglei/jupyterNote/Industry/.ipynb_checkpoints
+com.yanglei/jupyterNote/.ipynb_checkpoints
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+*application-local.properties
+
+.DS_Store

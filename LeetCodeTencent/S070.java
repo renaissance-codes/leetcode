@@ -10,17 +10,19 @@ public class S070 {
             return n;
         }
         int start = 0;
-        int step = 0;
+        int step = 1;
+        int res = 1;
         for (int i = 0; i < n; i++) {
-            start = i + start;
-            step = start + step;
+            res = start + step;
+            start = step;
+            step = res;
         }
-        return start + step;
+        return res;
     }
 
     public static void main(String[] args) {
         S070 s070 = new S070();
-        System.out.println(s070.climbStairs(1));
+        System.out.println(s070.climbStairs(5));
 
     }
 }

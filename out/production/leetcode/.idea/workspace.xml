@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeTencent/S070.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeTencent/S070.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mpLjeyK5cxvUoiyhKlqL1j5Bvn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeetCodeTencent" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="LeetCodeTencent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LeetCodeTencent" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.S070">
+    <configuration name="S002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S002" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCodeTencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S004" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCodeTencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S070" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S070" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCodeTencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S231" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCodeTencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.S070" />
+        <item itemvalue="Application.S231" />
+        <item itemvalue="Application.S004" />
+        <item itemvalue="Application.S002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="" />
+      <created>1610185723170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610185723170</updated>
+      <workItem from="1610185725884" duration="15320000" />
+      <workItem from="1610702262320" duration="5152000" />
+      <workItem from="1610866635608" duration="232000" />
+      <workItem from="1610971999837" duration="1343000" />
+      <workItem from="1610973376410" duration="1350000" />
+      <workItem from="1611044700943" duration="263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="114" y="23" width="1024" height="821" key="#Project_Structure" timestamp="1611044904412">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="114" y="23" key="#Project_Structure/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1611044904412" />
+    <state x="128" y="23" width="1024" height="821" key="#Project_Structure/0.23.1440.821@0.23.1440.821" timestamp="1610866799707" />
+    <state width="618" height="177" key="GridCell.Tab.0.bottom" timestamp="1611044955721">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="618" height="177" key="GridCell.Tab.0.bottom/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1611044955721" />
+    <state width="1236" height="228" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1610866867409" />
+    <state width="618" height="177" key="GridCell.Tab.0.center" timestamp="1611044955720">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="618" height="177" key="GridCell.Tab.0.center/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1611044955720" />
+    <state width="1236" height="228" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1610866867408" />
+    <state width="618" height="177" key="GridCell.Tab.0.left" timestamp="1611044955720">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="618" height="177" key="GridCell.Tab.0.left/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1611044955720" />
+    <state width="1236" height="228" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1610866867407" />
+    <state width="618" height="177" key="GridCell.Tab.0.right" timestamp="1611044955720">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="618" height="177" key="GridCell.Tab.0.right/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1611044955720" />
+    <state width="1236" height="228" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1610866867408" />
+    <state width="1236" height="228" key="GridCell.Tab.1.bottom" timestamp="1610866867410">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1238" height="220" key="GridCell.Tab.1.bottom/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1610508326609" />
+    <state width="1236" height="228" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1610866867410" />
+    <state width="1236" height="228" key="GridCell.Tab.1.center" timestamp="1610866867409">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1238" height="220" key="GridCell.Tab.1.center/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1610508326608" />
+    <state width="1236" height="228" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1610866867409" />
+    <state width="1236" height="228" key="GridCell.Tab.1.left" timestamp="1610866867409">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1238" height="220" key="GridCell.Tab.1.left/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1610508326608" />
+    <state width="1236" height="228" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1610866867409" />
+    <state width="1236" height="228" key="GridCell.Tab.1.right" timestamp="1610866867410">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1238" height="220" key="GridCell.Tab.1.right/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1610508326609" />
+    <state width="1236" height="228" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1610866867410" />
+    <state x="128" y="23" width="997" height="721" key="SettingsEditor" timestamp="1611044931394">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="128" y="23" width="997" height="721" key="SettingsEditor/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1611044931394" />
+    <state x="385" y="123" width="671" height="620" key="find.popup" timestamp="1610866510259">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="342" y="111" width="596" height="544" key="find.popup/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1610353836996" />
+    <state x="385" y="123" width="671" height="620" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1610866510259" />
+    <state x="305" y="68" key="search.everywhere.popup" timestamp="1610355379507">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="305" y="68" key="search.everywhere.popup/0.23.1280.721/-1920.-157.1920.1057@0.23.1280.721" timestamp="1610355379507" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCodeTencent/S002.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="LeetCodeTencent.ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="LeetCodeTencent.ListNode" memberName="val" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

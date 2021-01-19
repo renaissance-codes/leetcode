@@ -28,11 +28,12 @@ public class S020 {
             if (chars.contains(c)) {
                 strings.add(c);
             } else {
+                if (strings.isEmpty()) {
+                    return false;
+                }
                 Character pop = strings.pop();
                 Character pairChar = getPairChar(pop);
-                if (c == pairChar) {
-
-                } else {
+                if (c != pairChar) {
                     return false;
                 }
             }

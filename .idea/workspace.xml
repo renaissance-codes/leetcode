@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCodeTencent/S020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeTencent/S009.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/.gitigore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/.gitigore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,20 @@
       <recent name="$PROJECT_DIR$/LeetCodeTencent" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.S020">
+  <component name="RunManager" selected="Application.S009">
+    <configuration name="S009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S009" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCodeTencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="S020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S020" />
       <module name="leetcode" />
@@ -121,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S231" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCodeTencent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="S292" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S292" />
       <module name="leetcode" />
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.S009" />
         <item itemvalue="Application.S020" />
         <item itemvalue="Application.S217" />
         <item itemvalue="Application.S292" />
         <item itemvalue="Application.S070" />
-        <item itemvalue="Application.S231" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +181,7 @@
       <workItem from="1611044700943" duration="263000" />
       <workItem from="1611044976599" duration="2163000" />
       <workItem from="1611049564042" duration="612000" />
-      <workItem from="1611050302017" duration="4387000" />
+      <workItem from="1611050302017" duration="5824000" />
     </task>
     <servers />
   </component>
@@ -275,6 +272,14 @@
           <url>file://$PROJECT_DIR$/LeetCodeTencent/S020.java</url>
           <line>35</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/LeetCodeTencent/S009.java</url>
+          <line>22</line>
+          <properties class="LeetCodeTencent.S009" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

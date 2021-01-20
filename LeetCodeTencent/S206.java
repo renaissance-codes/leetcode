@@ -10,15 +10,15 @@ import java.util.Stack;
 public class S206 {
     public ListNode reverseList(ListNode head) {
         ListNode listNode = new ListNode();
-        Stack<Integer> integers = new Stack<>();
+        Stack<ListNode> integers = new Stack<>();
         while (head != null){
-            integers.add(head.val);
+            integers.add(head);
             head = head.next;
         }
         while(!integers.isEmpty()){
-            Integer pop = integers.pop();
+            ListNode pop = integers.pop();
             ListNode listNode1 = new ListNode();
-            listNode1.val = pop;
+            listNode1 = pop;
             listNode.next = listNode1;
             listNode.next = listNode;
 

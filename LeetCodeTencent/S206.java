@@ -13,14 +13,20 @@ public class S206 {
         Stack<ListNode> integers = new Stack<>();
         while (head != null){
             integers.add(head);
+            integers.push(head);
             head = head.next;
         }
+        if(!integers.isEmpty()){
+
+        }
+
         while(!integers.isEmpty()){
             ListNode pop = integers.pop();
             ListNode listNode1 = new ListNode();
             listNode1 = pop;
+            listNode1.next = null;
             listNode.next = listNode1;
-            listNode.next = listNode;
+            listNode = listNode1;
 
         }
         return listNode;

@@ -1,6 +1,5 @@
 package LeetCodeTencent;
 
-import java.util.List;
 import java.util.Stack;
 
 /**
@@ -8,23 +7,31 @@ import java.util.Stack;
  * @date 2021/1/20
  */
 public class S206 {
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseListByStack(ListNode head) {
         ListNode listNode = new ListNode();
-        Stack<ListNode> integers = new Stack<>();
-        while (head != null){
-            integers.push(head);
+        Stack<ListNode> nodeStack = new Stack<>();
+        while (head != null) {
+            nodeStack.push(head);
             head = head.next;
         }
-        ListNode move = listNode;
+        ListNode cur = listNode;
+        while (!nodeStack.isEmpty()) {
+            ListNode pop = nodeStack.pop();
+            pop.next = null;
 
-        while(!integers.isEmpty()){
-            ListNode pop = integers.pop();
-            ListNode listNode1 = new ListNode();
-            listNode1 = pop;
-            listNode1.next = null;
-            move.next = listNode1;
-            move = listNode1;
-
+            cur.next = pop;
+            cur = pop;
+        }
+        return listNode.next;
+    }
+    public ListNode reverseList(ListNode head) {
+//        ListNode listNode = new ListNode();
+        ListNode listNode = head;
+        listNode.next = null;
+        head.next = head;
+        while (head != null) {
+            head.next = listNode;
+            listNode = head;
         }
         return listNode.next;
     }

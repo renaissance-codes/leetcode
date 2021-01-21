@@ -1,5 +1,6 @@
 package LeetCodeTencent;
 
+import java.util.List;
 import java.util.Stack;
 
 /**
@@ -10,19 +11,19 @@ public class S206 {
     public ListNode reverseList(ListNode head) {
         ListNode listNode = new ListNode();
         Stack<ListNode> integers = new Stack<>();
-        while (head != null) {
+        while (head != null){
             integers.push(head);
             head = head.next;
         }
-        ListNode cur = listNode;
+        ListNode move = listNode;
 
-        while (!integers.isEmpty()) {
+        while(!integers.isEmpty()){
             ListNode pop = integers.pop();
             ListNode listNode1 = new ListNode();
             listNode1 = pop;
             listNode1.next = null;
-            listNode.next = listNode1;
-            listNode = listNode1;
+            move.next = listNode1;
+            move = listNode1;
 
         }
         return listNode.next;

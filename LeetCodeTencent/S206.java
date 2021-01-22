@@ -26,14 +26,13 @@ public class S206 {
     }
     public ListNode reverseList(ListNode head) {
         ListNode listNode = new ListNode();
-        ListNode cur0 = listNode;
-
-        ListNode cur1 = head;
-        while (cur1 != null) {
-            cur0.next = cur1;
-            cur1 = cur1.next;
+        while (head != null) {
+            ListNode temp = head.next;
+            listNode.next = temp;
+            listNode = listNode.next;
+            head = temp;
         }
-        return cur0.next;
+        return head.next;
     }
 
     public static void main(String[] args) {

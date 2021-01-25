@@ -18,13 +18,24 @@ public class S142 {
     }
 
     public ListNode detectCycle(ListNode head) {
-        ListNode head2 = head.next;
-        while (head2 != null && head2.next != null) {
-            head = head.next;
-            head2 = head2.next.next;
-            if (head.equals(head2)) {
-                return head.next;
+        ListNode slower = head;
+        ListNode faster = head;
+        boolean cycle = false;
+        while (faster != null && faster.next != null) {
+            slower = slower.next;
+            faster = faster.next.next;
+            if (slower == faster) {
+                cycle = true;
+                break;
             }
+        }
+        if (cycle) {
+            ListNode cur = head;
+            while (cur != faster) {
+                cur = cur.next;
+                faster = faster.next;
+            }
+            return faster;
         }
         return null;
 

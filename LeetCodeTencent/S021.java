@@ -5,7 +5,35 @@ package LeetCodeTencent;
  * @date 2021/1/25
  */
 public class S021 {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public static void main(String[] args) {
+        ListNode listNode = new ListNode(1);
+        ListNode listNode1 = new ListNode(2);
+        ListNode listNodea = new ListNode(1);
+        ListNode listNodea1 = new ListNode(2);
+        ListNode listNode2 = new ListNode(3);
+        ListNode listNodea2 = new ListNode(4);
+        listNode.next = listNode1;
+        listNode1.next = listNode2;
+        listNodea.next = listNodea1;
+        listNodea1.next = listNodea2;
 
+        S021 s021 = new S021();
+        s021.mergeTwoLists(listNode,listNodea);
+    }
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode listNode = new ListNode();
+        while (l1 != null || l2 != null) {
+            if (l1.val <= l2.val) {
+                ListNode temp = l1.next;
+                temp.next = null;
+                listNode.next = temp;
+                l1 = l1.next;
+            } else {
+                listNode.next = l2;
+                l2 = l2.next;
+            }
+        }
+        return listNode;
     }
 }

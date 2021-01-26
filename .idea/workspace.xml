@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f686a3-8cfd-49bc-bd8a-6ad1e77977e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeTencent/S061.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeTencent/S061.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <recent name="$PROJECT_DIR$/LeetCodeTencent" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.S021">
+  <component name="RunManager" selected="Application.S061">
     <configuration name="S021 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S021" />
       <extension name="coverage">
@@ -102,9 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S141" />
-      <module name="leetcode" />
+    <configuration name="S061 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S061" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCodeTencent.*" />
@@ -115,8 +116,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S142 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S142" />
+    <configuration name="S061" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeTencent.S061" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCodeTencent.*" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.S061" />
+        <item itemvalue="Application.S061 (1)" />
         <item itemvalue="Application.S021" />
         <item itemvalue="Application.S021 (1)" />
         <item itemvalue="Application.S142" />
-        <item itemvalue="Application.S142 (1)" />
-        <item itemvalue="Application.S141" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,7 @@
       <workItem from="1611050302017" duration="24127000" />
       <workItem from="1611217046459" duration="6063000" />
       <workItem from="1611556731907" duration="11732000" />
-      <workItem from="1611629463395" duration="734000" />
+      <workItem from="1611629463395" duration="2471000" />
     </task>
     <servers />
   </component>
@@ -348,6 +350,11 @@
           <url>file://$PROJECT_DIR$/LeetCodeTencent/S021.java</url>
           <line>27</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCodeTencent/S061.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

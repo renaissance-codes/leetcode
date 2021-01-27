@@ -16,16 +16,16 @@ public class S061 {
         listNode2.next = listNode3;
         listNode3.next = listNode4;
         S061 s061 = new S061();
-        s061.rotateRight(listNode,1);
+        s061.rotateRight(listNode, 2);
     }
 
     public ListNode rotateRight(ListNode head, int k) {
 
         int length = getLength(head);
-        if (length == 0){
+        if (length == 0) {
             return null;
         }
-        if(k == 0){
+        if (length == 1 || k == 0) {
             return head;
         }
         int real_k = k % length;

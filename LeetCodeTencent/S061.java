@@ -9,22 +9,45 @@ public class S061 {
         ListNode listNode = new ListNode(1);
         ListNode listNode1 = new ListNode(2);
         ListNode listNode2 = new ListNode(3);
+        ListNode listNode3 = new ListNode(4);
+        ListNode listNode4 = new ListNode(5);
         listNode.next = listNode1;
         listNode1.next = listNode2;
+        listNode2.next = listNode3;
+        listNode3.next = listNode4;
         S061 s061 = new S061();
         s061.rotateRight(listNode,1);
     }
 
     public ListNode rotateRight(ListNode head, int k) {
+
         int length = getLength(head);
-        int real_k = length % k;
+        if (length == 0){
+            return null;
+        }
+        if(k == 0){
+            return head;
+        }
+        int real_k = k % length;
         int move = length - real_k;
         ListNode listNode = head;
         while (listNode.next != null) {
             listNode = listNode.next;
         }
         listNode.next = head;
-        return head;
+        while (move > 0) {
+            head = head.next;
+            move -= 1;
+        }
+        ListNode listNode1 = head;
+        while (length > 0){
+            head = head.next;
+            length -= 1;
+            if(length == 1){
+                head.next = null;
+            }
+        }
+        return listNode1;
 
     }
 
